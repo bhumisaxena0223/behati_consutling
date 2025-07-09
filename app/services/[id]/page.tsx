@@ -27,11 +27,11 @@ export default function ServicePage({ params }: ServicePageProps) {
   }
 
   return (
-    <div className="py-16 lg:py-24">
+    <div className="py-12 lg:py-16">
       <div className="container">
         {/* Back Navigation */}
         <div className="mb-8 px-4 md:px-6">
-          <Button variant="ghost" className="p-0 text-blue-600 hover:text-blue-700" asChild>
+          <Button variant="ghost" className="p-0 text-purple-600 hover:text-purple-700" asChild>
             <Link href="/services">
               <ArrowLeft className="mr-2 h-4 w-4" />
               Back to Services
@@ -40,11 +40,11 @@ export default function ServicePage({ params }: ServicePageProps) {
         </div>
 
         {/* Header */}
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 mb-16 pl-4 md:pl-6">
+        <div className="grid gap-2 md:gap-8 lg:grid-cols-2 lg:gap-12 mb-16 pl-4 md:pl-6">
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
-              <div className="h-16 w-16 bg-blue-100 rounded-xl flex items-center justify-center">
-                <service.icon className="h-8 w-8 text-blue-600" />
+              <div className="h-16 w-16 bg-purple-100 rounded-xl flex items-center justify-center">
+                <service.icon className="h-8 w-8 text-purple-600" />
               </div>
               <div>
                 <h1 className="text-3xl font-bold tracking-tight sm:text-4xl text-slate-900">{service.title}</h1>
@@ -67,7 +67,8 @@ export default function ServicePage({ params }: ServicePageProps) {
                 </div>
               </div>
             </div>
-            <p className="text-xl text-slate-600">{service.description}</p>
+            <p className="text-xl text-slate-600 mt-4">{service.shortDescription}</p>
+            <p className="text-base text-slate-500 mt-4">{service.description}</p>
             <Button size="lg" asChild>
               <Link href="/contact">
                 Get Started <ArrowRight className="ml-2 h-4 w-4" />

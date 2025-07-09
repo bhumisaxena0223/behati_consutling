@@ -69,8 +69,13 @@ export default function ServicesPage() {
                     ))}
                   </ul>
                 </div>
-                <div className="w-full border border-purple-200 rounded-sm flex justify-center mt-6">
-                  <Button variant="ghost" size="lg" className="text-purple-600" asChild>
+                <div className="w-full border-2 border-purple-200 rounded-sm mt-6">
+                  <Button
+                    variant="ghost"
+                    size="lg"
+                    className="w-full text-purple-600 justify-center"
+                    asChild
+                  >
                     <Link href={`/services/${service.id}`}>
                       Learn more <ArrowRight className="ml-1 h-4 w-4" />
                     </Link>

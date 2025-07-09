@@ -1,4 +1,4 @@
-import { Database, Users, BarChart3, Cloud, Settings, Shield } from "lucide-react"
+import { Database, Users, BarChart3, Cloud, Settings, Shield } from "lucide-react";
 
 export const services = [
   {
@@ -6,7 +6,7 @@ export const services = [
     title: "S/4HANA Implementation",
     shortDescription: "Complete S/4HANA transformation with minimal business disruption and maximum ROI.",
     description:
-      "Our S/4HANA implementation services help organizations transition from legacy SAP systems to the intelligent enterprise platform. We provide end-to-end support from planning to go-live and beyond.",
+      "Our S/4HANA implementation services help organizations transition from legacy SAP systems to the intelligent enterprise platform. We provide end-to-end support from planning to go-live and beyond. In addition to ensuring a smooth technical transition, we help align your S/4HANA implementation with your business strategy to maximize outcomes. Our consultants work closely with your teams to optimize processes, reduce redundancies, and establish a future-proof SAP environment that supports continuous innovation.",
     icon: Database,
     features: [
       "System assessment and readiness check",
@@ -25,15 +25,15 @@ export const services = [
     timeline: "6-18 months",
     complexity: "High",
     image: "/services/s4hanaCover.png",
-    imageKey: "/services/s4hana_1.jpg",
-    imageBusiness: "/services/s4hana_3.jpeg",
+    imageKey: "/services/s4hana_2(620x320).png",
+    imageBusiness: "/services/s4hana_1(620x320).png",
   },
   {
     id: "successfactors",
     title: "SuccessFactors HR Solutions",
     shortDescription: "Transform your HR processes with cloud-based SuccessFactors solutions.",
     description:
-      "Streamline your human resources operations with SAP SuccessFactors. From talent management to payroll, we implement comprehensive HR solutions that scale with your business.",
+      "Streamline your human resources operations with SAP SuccessFactors. From talent management to payroll, we implement comprehensive HR solutions that scale with your business. Our approach focuses not only on implementation but also on enhancing HR agility and employee experiences. We help you leverage SuccessFactors’ advanced capabilities to create a culture of high performance and engagement while ensuring your HR operations remain compliant and scalable as your organization grows.",
     icon: Users,
     features: [
       "Employee Central implementation",
@@ -52,15 +52,15 @@ export const services = [
     timeline: "3-9 months",
     complexity: "Medium",
     image: "/services/sap-hrSolution.jpg",
-    imageKey: "/services/s4hana_1.jpg",
-    imageBusiness: "/services/s4hana_3.png",
+    imageKey: "/services/hrsolution_2(620x320).png",
+    imageBusiness: "/services/hrsolution_1(620x320).png",
   },
   {
     id: "analytics",
     title: "SAP Analytics Cloud",
     shortDescription: "Unlock business insights with advanced analytics and intelligent planning.",
     description:
-      "Transform your data into actionable insights with SAP Analytics Cloud. We help you build comprehensive analytics solutions that drive informed decision-making across your organization.",
+      "Transform your data into actionable insights with SAP Analytics Cloud. We help you build comprehensive analytics solutions that drive informed decision-making across your organization. We focus on helping your teams adopt a data-driven culture by building intuitive dashboards and analytics frameworks tailored to your needs. Our team ensures your organization can leverage predictive analytics and real-time reporting to drive performance improvements across business functions.",
     icon: BarChart3,
     features: [
       "Business intelligence dashboards",
@@ -79,15 +79,15 @@ export const services = [
     timeline: "2-6 months",
     complexity: "Medium",
     image: "/services/sapanalytics.png",
-    imageKey: "/services/s4hana_1.jpg",
-    imageBusiness: "/services/s4hana_3.jpeg",
+    imageKey: "/services/sapanalytics_1(620x320).png",
+    imageBusiness: "/services/sapanalytics_2(620x320).png",
   },
   {
     id: "cloud",
     title: "Cloud Migration Services",
     shortDescription: "Seamlessly migrate your SAP landscape to the cloud for enhanced scalability.",
     description:
-      "Move your SAP systems to the cloud with confidence. Our cloud migration services ensure minimal downtime, enhanced security, and improved performance while reducing infrastructure costs.",
+      "Move your SAP systems to the cloud with confidence. Our cloud migration services ensure minimal downtime, enhanced security, and improved performance while reducing infrastructure costs. Beyond technical migration, we guide your organization in rethinking infrastructure and operations to fully leverage the advantages of cloud environments. Our team ensures you gain agility, security, and scalability, enabling your SAP systems to support business growth and resilience.",
     icon: Cloud,
     features: [
       "Cloud readiness assessment",
@@ -114,7 +114,7 @@ export const services = [
     title: "System Integration",
     shortDescription: "Connect your SAP systems with third-party applications for seamless operations.",
     description:
-      "Integrate your SAP landscape with existing business applications to create a unified, efficient ecosystem. We specialize in API management, data synchronization, and process automation.",
+      "Integrate your SAP landscape with existing business applications to create a unified, efficient ecosystem. We specialize in API management, data synchronization, and process automation. We help organizations reduce inefficiencies and enhance data accuracy through seamless SAP integrations. Our integration strategies focus on aligning your systems and processes to enable real-time data flows and automated workflows, resulting in faster operations and better decision-making.",
     icon: Settings,
     features: [
       "API development and management",
@@ -133,15 +133,15 @@ export const services = [
     timeline: "2-5 months",
     complexity: "Medium",
     image: "/services/sapsystem.png",
-    imageKey: "/services/s4hana_1.jpg",
-    imageBusiness: "/services/s4hana_3.jpeg",
+    imageKey: "/services/systemintergation_1(620x320).png",
+    imageBusiness: "/services/systemintergation_2(620x320).png",
   },
   {
     id: "security",
     title: "SAP Security & Compliance",
     shortDescription: "Protect your SAP environment with comprehensive security and compliance solutions.",
     description:
-      "Secure your SAP systems against threats while ensuring compliance with industry regulations. Our security experts implement robust protection measures and governance frameworks.",
+      "Secure your SAP systems against threats while ensuring compliance with industry regulations. Our security experts implement robust protection measures and governance frameworks. We combine advanced security measures with governance best practices to protect your SAP environment against evolving threats. Our holistic approach ensures your systems are secure while helping you maintain compliance with global standards, reducing operational risks and ensuring business continuity.",
     icon: Shield,
     features: [
       "Security assessment and audit",
@@ -160,15 +160,15 @@ export const services = [
     timeline: "1-4 months",
     complexity: "Medium",
     image: "/services/sapsecurity.png",
-    imageKey: "/services/s4hana_1.jpg",
-    imageBusiness: "/services/s4hana_3.jpeg",
+    imageKey: "/services/sapSecurity_1(620x320).jpeg",
+    imageBusiness: "/services/sapSecurity_2(620x320).jpg",
   },
   {
     id: "outsourcing",
     title: "Outsourcing & People Management",
     shortDescription: "Strategic workforce solutions and managed services to optimize your SAP operations.",
     description:
-      "Leverage our expert team to manage your SAP operations through comprehensive outsourcing solutions. From application management to dedicated resource allocation, we provide flexible workforce solutions that scale with your business needs.",
+      "Leverage our expert team to manage your SAP operations through comprehensive outsourcing solutions. From application management to dedicated resource allocation, we provide flexible workforce solutions that scale with your business needs. Our outsourcing services are designed to give your business the flexibility to adapt quickly to market changes while maintaining operational excellence. We provide skilled SAP professionals and managed services that help you reduce overhead, improve performance, and focus on strategic initiatives.",
     icon: Users,
     features: [
       "Dedicated SAP resource allocation",
@@ -187,15 +187,15 @@ export const services = [
     timeline: "Ongoing",
     complexity: "Medium",
     image: "/services/s4hanaCover.png",
-    imageKey: "/services/s4hana_1.jpg",
-    imageBusiness: "/services/s4hana_3.jpeg",
+    imageKey: "/services/outsourcing_1(620x320).png",
+    imageBusiness: "/services/outsourcing_2(620x320).png",
   },
   {
     id: "cloud-it",
     title: "Cloud & IT Services",
     shortDescription: "Comprehensive cloud infrastructure and IT services for modern SAP environments.",
     description:
-      "Transform your IT infrastructure with our comprehensive cloud and IT services. We provide end-to-end solutions from cloud strategy to implementation, ensuring your SAP systems run optimally in modern, scalable environments.",
+      "Transform your IT infrastructure with our comprehensive cloud and IT services. We provide end-to-end solutions from cloud strategy to implementation, ensuring your SAP systems run optimally in modern, scalable environments. We help you future-proof your SAP environment by designing and managing scalable, secure, and high-performing cloud and IT infrastructures. Our experts ensure your SAP systems are fully optimized for your operational needs, enabling you to embrace innovation while maintaining stability and control.",
     icon: Cloud,
     features: [
       "Cloud strategy and roadmap",
@@ -214,7 +214,7 @@ export const services = [
     timeline: "2-6 months",
     complexity: "High",
     image: "/services/cloud-IT.jpg",
-    imageKey: "/services/s4hana_1.jpg",
-    imageBusiness: "/services/s4hana_3.jpeg",
+    imageKey: "/services/itservices_2(620x320).png",
+    imageBusiness: "/services/itservices_1(620x320).png",
   },
-]
+];
