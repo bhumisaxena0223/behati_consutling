@@ -160,7 +160,7 @@ export const services = [
     timeline: "1-4 months",
     complexity: "Medium",
     image: "/services/sapsecurity.png",
-    imageKey: "/services/sapSecurity_1(620x320).jpeg",
+    imageKey: "/services/sapSecurity_1(620x320).png",
     imageBusiness: "/services/sapSecurity_2(620x320).jpg",
   },
   {
