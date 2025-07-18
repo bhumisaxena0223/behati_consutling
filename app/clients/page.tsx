@@ -98,7 +98,7 @@ export default function ClientsPage() {
             {[
               { number: "500+", label: "Projects Completed" },
               { number: "98%", label: "Client Satisfaction" },
-              { number: "15+", label: "Years Experience" },
+              { number: "11+", label: "Years Experience" },
               { number: "50+", label: "Enterprise Clients" },
             ].map((stat, index) => (
               <div key={index} className="text-center">

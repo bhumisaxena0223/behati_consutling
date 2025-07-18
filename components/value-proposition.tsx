@@ -5,7 +5,7 @@ const valueProps = [
   {
     icon: Shield,
     title: "Proven Expertise",
-    description: "15+ years of SAP consulting experience with 500+ successful implementations across industries.",
+    description: "11+ years of SAP consulting experience with 500+ successful implementations across industries.",
     stat: "500+",
     statLabel: "Projects",
   },
