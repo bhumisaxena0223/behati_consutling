@@ -45,7 +45,7 @@ export function ClientSuccessPreview() {
       </div>
 
       {/* Featured Client Stories Carousel */}
-      <div className="mt-12 mx-32">
+      <div className="mt-12 mx-2 md:mx-32">
         <h2 className="text-2xl font-bold text-center mb-8">Featured Client Stories</h2>
         <Slider {...{...settings, slidesToShow: 1}}>
           {clients.slice(0, 2).map((client, index) => (

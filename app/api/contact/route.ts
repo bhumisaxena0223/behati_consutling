@@ -9,28 +9,38 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
-  const { name, email, message } = await request.json();
-  if (!name || !email || !message) {
-    return new Response(
-      JSON.stringify({ error: 'All fields are required.' }),
-      { status: 400 }
-    );
-  }
-
   try {
+    const formData = await request.formData();
+    const firstName = formData.get('firstName');
+    const lastName = formData.get('lastName');
+    const email = formData.get('email');
+    const company = formData.get('company');
+    const phone = formData.get('phone');
+    const service = formData.get('service');
+    const message = formData.get('message');
+
+    if (!firstName || !lastName || !email || !company || !phone || !service || !message) {
+      return NextResponse.json({ error: 'All fields are required.' }, { status: 400 });
+    }
+
     await resend.emails.send({
       from: 'Contact Form <bhumisaxena0223@gmail.com>',
       to: 'bhumisaxena0223@gmail.com',
-      subject: `New Contact Form Submission from ${name}`,
-      html: `<p><strong>Name:</strong> ${name}</p>
-            <p><strong>Email:</strong> ${email}</p>
-            <p><strong>Message:</strong></p>
-            <p>${message}</p>`
+      subject: `New Contact Form Submission from ${firstName} ${lastName}`,
+      html: `
+        <p><strong>Name:</strong> ${firstName} ${lastName}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Company:</strong> ${company}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Service:</strong> ${service}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `
     });
 
-    return new Response(JSON.stringify({ success: true, message: 'Message sent successfully.' }), { status: 200 });
+    return NextResponse.json({ success: true, message: 'Message sent successfully.' });
   } catch (error) {
     console.error(error);
-    return new Response(JSON.stringify({ error: 'Something went wrong. Please try again later.' }), { status: 500 });
+    return NextResponse.json({ error: 'Something went wrong. Please try again later.' }, { status: 500 });
   }
 }
