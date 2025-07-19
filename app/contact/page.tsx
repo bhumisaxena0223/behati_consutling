@@ -50,7 +50,12 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6 text-blue-600 mt-1" />
                   <div>
                     <div className="font-medium text-slate-900">Phone</div>
-                    <div className="text-slate-600">+91 9790749488</div>
+                    <div className="text-slate-600">
+                      <a href="tel:919790749488" className="hover:text-blue-600 transition-colors">+91 9790749488</a>
+                    </div>
+                    <div className="text-slate-600">
+                      <a href="tel:919789031769" className="hover:text-blue-600 transition-colors">+91 9789031769</a>
+                    </div>
                     <div className="text-sm text-slate-500">Mon-Fri, 9AM-6PM IST</div>
                   </div>
                 </div>

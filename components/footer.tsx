@@ -92,7 +92,11 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-secondary" />
-                <span className="text-slate-300">+91 9790749488</span>
+                <a href="tel:919790749488" className="text-slate-300 hover:text-secondary transition-colors">+91 9790749488</a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Phone className="h-4 w-4 text-secondary" />
+                <a href="tel:919789031769" className="text-slate-300 hover:text-secondary transition-colors">+91 9789031769</a>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-secondary" />
