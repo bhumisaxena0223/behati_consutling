@@ -1,6 +1,6 @@
 import { ContactForm } from "@/components/contact-form"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { Mail, Phone, MapPin, Clock, DollarSign } from "lucide-react"
 
 export default function ContactPage() {
   return (
@@ -62,7 +62,18 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-blue-600 mt-1" />
                   <div>
-                    <div className="font-medium text-slate-900">Office</div>
+                    <div className="font-medium text-slate-900">Headquarters Office</div>
+                    <div className="text-slate-600">E4, Resident Pere Laval, Quatre Bornes, Mauritius</div>
+                    <div className="flex items-center space-x-2">
+                      <DollarSign className="h-4 w-4 text-blue-600" />
+                      <span className="text-slate-600">BRN: C22188798</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <MapPin className="h-6 w-6 text-blue-600 mt-1" />
+                  <div>
+                    <div className="font-medium text-slate-900">Indian Office Branch</div>
                     <div className="text-slate-600">Behati Consulting Private Limited 
                     363, 11th Cross,</div>
                     <div className="text-slate-600">6th Main, Vijaya Bank layout, Bilekhalli, Bangalore</div>

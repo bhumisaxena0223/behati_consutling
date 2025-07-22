@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Linkedin, Mail, Phone, MapPin } from "lucide-react"
+import { Facebook, Twitter, Linkedin, Mail, Phone, MapPin, DollarSign } from "lucide-react"
 
 export function Footer() {
   return (
@@ -100,8 +100,16 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-secondary" />
-                <span className="text-slate-300">Behati Consulting Private Limited 
-                363, 11th Cross, 6th Main, Vijaya Bank layout, Bilekhalli, Bangalore</span>
+                <span className="text-slate-300">Headquarters Office: E4, Resident Pere Laval, Quatre Bornes, Mauritius</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <DollarSign className="h-4 w-4 text-secondary" />
+                <span className="text-slate-300">BRN: C22188798</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <MapPin className="h-4 w-4 text-secondary" />
+                <span className="text-slate-300">Indian Office Branch: Behati Consulting Private Limited<br/> 
+                363, 11th Cross, 6th Main, Vijaya Bank layout,<br/>  Bilekhalli, Bangalore</span>
               </div>
             </div>
           </div>
