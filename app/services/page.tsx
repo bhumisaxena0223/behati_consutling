@@ -39,17 +39,6 @@ export default function ServicesPage() {
                   <div className="h-12 w-12 bg-purple-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors">
                     <service.icon className="h-6 w-6 text-primary" />
                   </div>
-                  <Badge
-                    variant={
-                      service.complexity === "High"
-                        ? "destructive"
-                        : service.complexity === "Medium"
-                          ? "default"
-                          : "secondary"
-                    }
-                  >
-                    {service.complexity}
-                  </Badge>
                 </div>
                 <CardTitle className="text-slate-900">{service.title}</CardTitle>
                 <CardDescription className="text-slate-600">{service.shortDescription}</CardDescription>

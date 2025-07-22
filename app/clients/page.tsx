@@ -21,7 +21,7 @@ export default function ClientsPage() {
 
         {/* Client Success Stories */}
         <div className="space-y-12 mb-16">
-          {clients.map((client, index) => (
+          {clients.slice(0, 2).map((client, index) => (
             <Card
               key={client.id}
               className={`border-0 shadow-xl overflow-hidden ${index % 2 === 1 ? "lg:flex-row-reverse" : ""}`}

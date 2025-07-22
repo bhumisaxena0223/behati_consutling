@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, CheckCircle, Clock, BarChart, ArrowLeft } from "lucide-react"
 import Link from "next/link"
@@ -48,23 +47,6 @@ export default function ServicePage({ params }: ServicePageProps) {
               </div>
               <div>
                 <h1 className="text-3xl font-bold tracking-tight sm:text-4xl text-slate-900">{service.title}</h1>
-                <div className="flex items-center space-x-4 mt-2">
-                  <Badge
-                    variant={
-                      service.complexity === "High"
-                        ? "destructive"
-                        : service.complexity === "Medium"
-                          ? "default"
-                          : "secondary"
-                    }
-                  >
-                    {service.complexity} Complexity
-                  </Badge>
-                  <div className="flex items-center text-sm text-slate-500">
-                    <Clock className="h-4 w-4 mr-1" />
-                    {service.timeline}
-                  </div>
-                </div>
               </div>
             </div>
             <p className="text-xl text-slate-600 mt-4">{service.shortDescription}</p>

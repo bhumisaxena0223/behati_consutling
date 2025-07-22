@@ -228,10 +228,10 @@ export default function HomePage() {
           src="/client-success-bg.mp4"
         />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(59,130,246,0.05),transparent_70%)]" />
-        <div className="container px-4 md:px-6 relative z-10">
+        <div className="relative z-10 ">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-slate-900">Client Success Stories</h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-slate-900 mx-8 md:mx-16">Client Success Stories</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto mx-8 md:mx-16">
               See how we've helped industry leaders achieve remarkable results through strategic SAP implementations.
             </p>
           </div>
